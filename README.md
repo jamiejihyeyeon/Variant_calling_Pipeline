@@ -1,7 +1,7 @@
 # Variant_calling_Pipeline
 Variant calling project using C. elegans SRA data from PRJNA987746 (PMID:37572357; Yeon_et al)
 
-# C. elegans Variant Calling Pipeline  
+# Variant Calling Pipeline  
 Variant calling workflow for PRJNA987746 (CC1 RILs WGS).  
 This project demonstrates a complete NGS processing pipeline using Linux, SRA Toolkit, BWA, Samtools, and BCFtools.
 
