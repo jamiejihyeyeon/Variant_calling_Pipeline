@@ -1,0 +1,31 @@
+project:
+  name: "C. elegans N2 vs ECA712 Variant Analysis"
+  genome_build: WBcel235
+
+reference:
+  genome_fasta: Caenorhabditis_elegans.WBcel235.dna.toplevel.fa
+  gtf: Caenorhabditis_elegans.WBcel235.115.gtf
+
+samples:
+  control:
+    name: N2
+    bam: N2.bam
+  mutant:
+    name: ECA712
+    bam: ECA712.bam
+
+variant_calling:
+  ploidy: 2
+  max_depth: 250
+  threads: 8
+
+snpeff:
+  genome_version: WBcel235
+  data_dir: snpEff/data
+  use_protein: true
+  use_cds: true
+
+output:
+  raw_vcf: variants.vcf
+  annotated_vcf: variants_annotated.vcf
+  csv: variants_annotated_type.csv
