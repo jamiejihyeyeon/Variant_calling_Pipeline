@@ -1,0 +1,26 @@
+name: variant_calling
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # Core language
+  - python=3.12
+
+  # Variant calling
+  - samtools=1.19
+  - bcftools=1.19
+  - htslib=1.19
+
+  # Annotation
+  - snpeff=5.4
+  - openjdk=17
+
+  # Python analysis
+  - pandas
+  - numpy
+  - cyvcf2
+  - pyyaml
+
+  # Optional but useful
+  - matplotlib
+  - seaborn
