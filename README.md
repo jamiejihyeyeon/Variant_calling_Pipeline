@@ -55,7 +55,7 @@ Final results are exported as a CSV file for downstream analysis and visualizati
   ├── environment.yaml          # Conda environment definition
   ├── config.yaml               # Pipeline configuration
   ├── README.md                 # Project documentation
-  ├── data/
+  ├── data
   │   ├── bam/                  # BAM and index files
   │   └── reference/            # Reference genome and annotations
   ├── snpEff/                   # Local snpEff installation and database
