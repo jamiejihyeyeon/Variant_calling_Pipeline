@@ -1,0 +1,23 @@
+# DATA
+
+## BAM Files
+
+The aligned sequencing reads (BAM) for both strains can be downloaded from Caenorhabditis elegans Natural Diversity Resource:
+
+- N2.bam and N2.bam.bai: https://caendr.org/isotype/N2/
+- ECA712.bam and ECA712.bam.bai: https://caendr.org/isotype/ECA712/
+
+Place BAM files and their index files in: data/bam/
+
+## Reference Genome and Annotation
+
+Reference genome and annotation files are from Ensembl release 115. Download and place in data/reference/:
+
+- dna.toplevel.fa → https://ftp.ensembl.org/pub/release-115/fasta/caenorhabditis_elegans/dna/
+- genes.gtf → https://ftp.ensembl.org/pub/release-115/gtf/caenorhabditis_elegans/
+- CDS.fa → https://ftp.ensembl.org/pub/release-115/fasta/caenorhabditis_elegans/cds/
+- protein.fa → https://ftp.ensembl.org/pub/release-115/fasta/caenorhabditis_elegans/pep/
+
+Place all reference files in: data/reference/
+
+  
