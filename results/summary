@@ -1,1 +1,26 @@
 
+All results are written to the ```results/ directory.```
+
+### Variants
+
+| File                          | Description                                                  |
+| ----------------------------- | ------------------------------------------------------------ |
+| `variants.vcf`                | Raw variant calls from bcftools                              |
+| `variants_annotated.vcf`      | Functionally annotated variants (snpEff)                     |
+| `variants_annotated_type.csv` | Tabular summary with gene, impact, and strain classification |
+
+### snpEFf Reports
+
+| File                  | Description                      |
+| --------------------- | -------------------------------- |
+| `snpEff_summary.html` | snpEff annotation summary report |
+| `snpEff_genes.txt`    | Per-gene variant statistics      |
+
+
+These outputs can be directly used for: 
+- Candidate gene identification
+- Functional impact filtering (e.g. HIGH / MODERATE)
+- Comparative variant analysis between strains
+
+
+
