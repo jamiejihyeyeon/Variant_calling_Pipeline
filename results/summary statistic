@@ -1,0 +1,35 @@
+### Variant counts by category
+Variant_Type
+ECA_only    335625
+Shared       18466
+Other         4000
+
+### Impact summary
+Impact
+MODIFIER    292820
+LOW          35996
+MODERATE     27938
+HIGH          1337
+
+### Top 20 genes by variant count
+Gene
+C14B4.2           877
+K09F6.3           719
+trp-2             578
+WBGene00019913    546
+K05F6.10          456
+Y26D4A.21         418
+ZK993.2           411
+fbxa-59           400
+C43D7.19          400
+Y69A2AR.16        397
+gcy-20            388
+WBGene00194769    371
+math-38           370
+F19B10.10         360
+fbxa-51           352
+irld-12           349
+tftc-1            345
+afd-1             344
+Y43F8B.3          344
+scl-21            342
